@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Amy Barnhill UX/UI Designer</title>
     <link
       rel="icon"
@@ -17,23 +17,31 @@
       href="img/favicon-16x16.png"
       sizes="16x16"
     />
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <div>
-        <a href="index.html">Amy Barnhill</a>
+    <header id="header">
+      <div class="container">
+        <a href="index.html" class="logo">Amy Barnhill</a>
         <nav>
-          <ul>
+          <ul class="nav">
             <li><a href="index.html">Projects</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact" class="button">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <div>
-        <div>
+      <div id="hero">
+        <div class="container">
           <h1>
             Hi, I'm Amy
             <span>A UX Designer based in Connecticut, USA</span>
@@ -45,12 +53,12 @@
           </p>
         </div>
       </div>
-      <div>
-        <div>
+      <div id="work">
+        <div class="container">
           <h2>My Work</h2>
-          <div>
+          <div class="row">
             <!--open 1st row that holds 2 columns-->
-            <div>
+            <div class="container">
               <!--open first column for image-->
               <picture
                 ><source
@@ -60,18 +68,18 @@
               /></picture>
             </div>
             <!--close first column-->
-            <div>
+            <div class="container">
               <!--open second column for text-->
               <h3>Vela</h3>
               <p>A mobile weather app built for watersport enthusiasts</p>
-              <a href="vela.html">View Project</a>
+              <a href="vela.html" class="button">View Project</a>
             </div>
             <!--close second column-->
           </div>
           <!--close row with 2 columns-->
-          <div>
+          <div class="row">
             <!--open 2nd row that holds 2 columns-->
-            <div>
+            <div class="container">
               <!--open first column 2nd row for image-->
               <picture
                 ><source
@@ -81,33 +89,32 @@
               /></picture>
             </div>
             <!--close first column 2nd row-->
-            <div>
+            <div class="container">
               <!--open second column 2nd row for text-->
               <h3>Project 2</h3>
               <p>Coming Soon</p>
-              <a href="#">View Project</a>
+              <a href="#" class="button">View Project</a>
             </div>
-            <!--close second 2nd row column-->
+            <!--close second column 2nd row-->
           </div>
           <!--close 2nd row with 2 columns-->
         </div>
       </div>
     </main>
     <footer id="contact">
-      <div>
+      <div class="container">
         <h2>Get In Touch</h2>
         <p>
           If you like my work and would like to chat, please feel free to reach
           out anytime
         </p>
         <div>
-          <a href="mailto:itsamybarnhill@gmail.com">Email Me</a>
+          <a href="mailto:itsamybarnhill@gmail.com" class="button contact"
+            >Email Me</a
+          >
         </div>
         <div>
           <ul>
-            <a href="ANOTHER-SOCIAL-LINK">
-              <img src="http://via.placeholder.com/32x32" />
-            </a>
             <a href="ANOTHER-SOCIAL-LINK" alt="linkedin logo">
               <svg
                 enable-background="new 0 0 32 32"
@@ -145,7 +152,6 @@
                 <g />
                 <g />
               </svg>
-              />
             </a>
           </ul>
         </div>

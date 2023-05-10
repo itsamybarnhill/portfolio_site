@@ -17,16 +17,23 @@
       href="img/favicon-16x16.png"
       sizes="16x16"
     />
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap"
+    rel="stylesheet"
   </head>
   <body>
-    <header>
-      <div>
-        <a href="#">Amy Barnhill</a>
+    <header id="header">
+      <div class="container">
+        <a href="index.html">Amy Barnhill</a>
         <nav>
-          <ul>
+          <ul class="nav">
             <li><a href="index.html">Projects</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact" class="button">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -77,13 +84,19 @@
       <!--end entire section  block-->
       <h1>Process</h1>
       <ul>
-        <li><a href="#background">Background</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#analyze">Analyze</a></li>
-        <li><a href="#wireframes">Wireframes</a></li>
-        <li><a href="#usabilitytesting">Usability Testing</a></li>
-        <li><a href="#refiningthedesign">Refining the Design</a></li>
-        <li><a href="#solution">Solution</a></li>
+        <li><a href="#background" class="projectlink">Background</a></li>
+        <li><a href="#research" class="projectlink">Research</a></li>
+        <li><a href="#analyze" class="projectlink">Analyze</a></li>
+        <li><a href="#wireframes" class="projectlink">Wireframes</a></li>
+        <li>
+          <a href="#usabilitytesting" class="projectlink">Usability Testing</a>
+        </li>
+        <li>
+          <a href="#refiningthedesign" class="projectlink"
+            >Refining the Design</a
+          >
+        </li>
+        <li><a href="#solution" class="projectlink">Solution</a></li>
       </ul>
       <h1>Background</h1>
       <h2>Context</h2>
@@ -331,20 +344,19 @@
       </p>
     </main>
     <footer id="contact">
-      <div>
+      <div class="container">
         <h2>Get In Touch</h2>
         <p>
           If you like my work and would like to chat, please feel free to reach
           out anytime
         </p>
         <div>
-          <a href="mailto:itsamybarnhill@gmail.com">Email Me</a>
+          <a href="mailto:itsamybarnhill@gmail.com" class="button contact"
+            >Email Me</a
+          >
         </div>
         <div>
           <ul>
-            <a href="ANOTHER-SOCIAL-LINK">
-              <img src="http://via.placeholder.com/32x32" />
-            </a>
             <a href="ANOTHER-SOCIAL-LINK" alt="linkedin logo">
               <svg
                 enable-background="new 0 0 32 32"
@@ -382,7 +394,6 @@
                 <g />
                 <g />
               </svg>
-              />
             </a>
           </ul>
         </div>

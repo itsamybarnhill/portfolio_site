@@ -1,0 +1,178 @@
+/*Universal Selector*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background-color: #ffffff;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #4a4a4a;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 300;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none; /* No underlining */
+}
+a:hover a:focus {
+  color: #130025;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:visited {
+  /* visited link */
+  color: 130025;
+}
+a:active {
+  /* selected link */
+  color: #ffffff;
+}
+
+.projectlink {
+  color: #130025;
+}
+
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  width: fit-content;
+  text-align: center;
+  background-color: #f28e23;
+  color: #130025; /* needed to override the default link color */
+  font-weight: 300;
+  padding: 6px;
+  border-radius: 12px;
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+/*This is for the email me button*/
+.button.contact {
+  background-color: transparent;
+  color: #ff7f50;
+  text-transform: uppercase;
+  border: 2px solid #ff7f50;
+}
+.button.contact:hover {
+  background-color: #ff7f50;
+  color: #ffffff;
+}
+
+#contact {
+  background-image: linear-gradient(89.33deg, #612f9b 51.4%, #31035e 119.97%);
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: sticky;
+  height: auto;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+#header {
+  background-image: linear-gradient(89.33deg, #612f9b 51.4%, #31035e 119.97%);
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#hero {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Layout Styling*/
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+.nav {
+  display: inline-block;
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav > li {
+  display: inline-block;
+}
+
+.nav > li > a {
+  padding: 0 15px;
+  text-transform: lowercase;
+}
+
+.nav > li > a:hover a:focus {
+  color: #130025;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+
+.nav > li > a:visited {
+  /* visited link */
+  color: 130025;
+}
+
+.nav > li > a:active {
+  /* selected link */
+  color: #ffffff;
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
+
+#hero h1 {
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+main {
+  padding-top: 133px;
+}
