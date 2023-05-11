@@ -7,7 +7,7 @@ body {
   margin: 0px;
   background-color: #ffffff;
   font-family: 'Fira Sans', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
+  font-size: 18px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
@@ -118,6 +118,11 @@ a:active {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+  text-align: center;
+}
+
+#hero span {
+  display: block;
 }
 
 /* Layout Styling*/
@@ -127,6 +132,12 @@ a:active {
 
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
 }
 
 .nav {
@@ -141,7 +152,7 @@ a:active {
 }
 
 .nav > li > a {
-  padding: 0 15px;
+  padding: 0 30px;
   text-transform: lowercase;
 }
 
@@ -175,4 +186,52 @@ a:active {
 
 main {
   padding-top: 133px;
+}
+
+/* Media Queries*/
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+}
+#header {
+  text-align: unset;
+  padding: 20px 0 13px;
+}
+.nav {
+  width: auto;
+  float: right;
+  margin-top: 4px;
+}
+
+[class*='col-'] {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+#about-page h3 {
+  margin-top: 0;
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+
+[class*='col-'] {
+  width: 60%;
+  float: left;
+  padding: 10px;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
