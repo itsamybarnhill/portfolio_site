@@ -17,8 +17,8 @@
   </head>
   <body>
     <header id="header">
-      <div class="container">
-        <a href="index.html">Amy Barnhill</a>
+      <div class="header-container">
+        <a href="index.html" class="logo">Amy Barnhill</a>
         <nav>
           <ul class="nav">
             <li><a href="index.html">Projects</a></li>
@@ -29,18 +29,18 @@
       </div>
     </header>
     <main>
-      <div>
+      <div class="container">
         <!--start entire section>-->
         <div>
           <!--start container-->
-          <h2>Vela</h2>
-          <div>
+          <h1>Vela</h1>
+          <div class="columns">
             <!--start row for column-->
             <div>
-              <h3>
+              <h4>
                 A mobile weather application built for watersport enthusiasts
-              </h3>
-              <div>
+              </h4>
+              <div class="column">
                 <ul>
                   <li>Date</li>
                   <li>Role</li>
@@ -48,7 +48,7 @@
                   <li>Platforms</li>
                 </ul>
               </div>
-              <div>
+              <div class="column">
                 <ul>
                   <li>February 2022-February 2023</li>
                   <li>UX/UI Designer</li>
@@ -57,7 +57,7 @@
                 </ul>
               </div>
             </div>
-            <div>
+            <div class="column">
               <picture>
                 <source
                   srcset="img/1x_sm/vela_sm.jpg"
@@ -73,265 +73,297 @@
       </div>
       <!--end entire section  block-->
       <h1>Process</h1>
-      <ul>
-        <li><a href="#background" class="projectlink">Background</a></li>
-        <li><a href="#research" class="projectlink">Research</a></li>
-        <li><a href="#analyze" class="projectlink">Analyze</a></li>
-        <li><a href="#wireframes" class="projectlink">Wireframes</a></li>
-        <li>
-          <a href="#usabilitytesting" class="projectlink">Usability Testing</a>
-        </li>
-        <li>
-          <a href="#refiningthedesign" class="projectlink"
-            >Refining the Design</a
-          >
-        </li>
-        <li><a href="#solution" class="projectlink">Solution</a></li>
-      </ul>
+      <div class="container">
+        <ul class="vela-nav">
+          <li><a href="#background" class="projectlink">Background</a></li>
+          <li><a href="#research" class="projectlink">Research</a></li>
+          <li><a href="#analyze" class="projectlink">Analyze</a></li>
+          <li><a href="#wireframes" class="projectlink">Wireframes</a></li>
+          <li>
+            <a href="#usabilitytesting" class="projectlink"
+              >Usability Testing</a
+            >
+          </li>
+          <li>
+            <a href="#refiningthedesign" class="projectlink"
+              >Refining the Design</a
+            >
+          </li>
+          <li><a href="#solution" class="projectlink">Solution</a></li>
+        </ul>
+      </div>
       <h1>Background</h1>
-      <h2>Context</h2>
-      <p>
-        Water sport enthusiasts such as surfers, kayakers, and snorkelers want
-        their activities on the water to be relaxing and fun, not stressful. To
-        avoid any mishaps, it’s important to check the winds, waves and weather
-        conditions before heading out. This can help us avoid hazards and be
-        fully prepared for a day full of surfing, diving, or sailing.
-      </p>
-      <h3>Problem</h3>
-      <p>
-        Weather apps do exist for water sport enthusiasts, however what is
-        currently available doesn’t do a great job of displaying complicated
-        weather data in an accessible, easy to understand manner.
-      </p>
-      <h3>Hypothesis</h3>
-      <p>
-        Watersport enthusiasts such as sailors, surfers, and divers need a way
-        to receive accurate weather data presented in an easy to comprehend and
-        visually attractive way, so that they can make informed decisions about
-        participating in water sports.
-      </p>
-      <h3>Goal</h3>
-      <p>
-        Create a product that offers current conditions information, graphs, and
-        future forecasts all beautifully displayed and easy to read at a glance,
-        geared specifically for the needs of water sport enthusiasts.
-      </p>
+      <div class="container">
+        <h2>Context</h2>
+        <p>
+          Water sport enthusiasts such as surfers, kayakers, and snorkelers want
+          their activities on the water to be relaxing and fun, not stressful.
+          To avoid any mishaps, it’s important to check the winds, waves and
+          weather conditions before heading out. This can help us avoid hazards
+          and be fully prepared for a day full of surfing, diving, or sailing.
+        </p>
+        <h3>Problem</h3>
+        <p>
+          Weather apps do exist for water sport enthusiasts, however what is
+          currently available doesn’t do a great job of displaying complicated
+          weather data in an accessible, easy to understand manner.
+        </p>
+        <h3>Hypothesis</h3>
+        <p>
+          Watersport enthusiasts such as sailors, surfers, and divers need a way
+          to receive accurate weather data presented in an easy to comprehend
+          and visually attractive way, so that they can make informed decisions
+          about participating in water sports.
+        </p>
+        <h3>Goal</h3>
+        <p>
+          Create a product that offers current conditions information, graphs,
+          and future forecasts all beautifully displayed and easy to read at a
+          glance, geared specifically for the needs of water sport enthusiasts.
+        </p>
+      </div>
+
       <h1>Research</h1>
-      <h2>Competitive Analysis</h2>
-      <p>
-        As part of my research, it was important to understand competitors in
-        the same space were doing well, and discover what opportunities might
-        exist for my project. I selected two apps with similar features,
-        Waterspeed and Windy. To analyze, I created a marketing profile for each
-        competitor, prepared a SWOT analysis, and performed a UX and features
-        analysis of each competitor.
-      </p>
-      <div>
-        <picture>
-          <source
-            srcset="img/1x_sm/comp_analysis_sm.png"
-            media="(max-width:767px)"
-          />
-          <img src="img/1x_lrg/comp_analysis_lrg.png" alt="competitive analysis"
-        </picture>
+
+      <div class="container">
+        <h2>Competitive Analysis</h2>
+        <p>
+          As part of my research, it was important to understand competitors in
+          the same space were doing well, and discover what opportunities might
+          exist for my project. I selected two apps with similar features,
+          Waterspeed and Windy. To analyze, I created a marketing profile for
+          each competitor, prepared a SWOT analysis, and performed a UX and
+          features analysis of each competitor.
+        </p>
+        <div>
+          <picture>
+            <source
+              srcset="img/1x_sm/comp_analysis_sm.png"
+              media="(max-width:767px)"
+            />
+            <img src="img/1x_lrg/comp_analysis_lrg.png" alt="competitive
+            analysis"
+          </picture>
+        </div>
       </div>
+
       <h1>Analyze</h1>
-      <h2>User Personas</h2>
-      <p>
-        I developed two user personas based on the data I had gathered. Raymond,
-        a 28 year old realtor who has been surfing all his life, and Shelby, a
-        29 year old teacher who has just recently taken up paddle boarding as a
-        hobby.
-      </p>
-      <div>
-        <picture>
-          <source
-            srcset="img/1x_sm/persona_raymond_sm.jpg"
-            media="(max-width:767px)"
-          />
-          <img src="img/1x_lrg/persona_raymond_lrg.jpg" alt="raymond user
-          persona"
-        </picture>
-        <picture>
-          <source
-            srcset="img/1x_sm/shelby_persona_sm.jpg"
-            media="(max-width:767px)"
-          />
-          <img src="img/1x_lrg/shelby_persona_lrg.jpg" alt="shelby user persona"
-        </picture>
+
+      <div class="container">
+        <h2>User Personas</h2>
+        <p>
+          I developed two user personas based on the data I had gathered.
+          Raymond, a 28 year old realtor who has been surfing all his life, and
+          Shelby, a 29 year old teacher who has just recently taken up paddle
+          boarding as a hobby.
+        </p>
+        <div>
+          <picture>
+            <source
+              srcset="img/1x_sm/persona_raymond_sm.jpg"
+              media="(max-width:767px)"
+            />
+            <img src="img/1x_lrg/persona_raymond_lrg.jpg" alt="raymond user
+            persona"
+          </picture>
+          <picture>
+            <source
+              srcset="img/1x_sm/shelby_persona_sm.jpg"
+              media="(max-width:767px)"
+            />
+            <img src="img/1x_lrg/shelby_persona_lrg.jpg" alt="shelby user
+            persona"
+          </picture>
+        </div>
       </div>
-      <h2>User Journey Maps</h2>
-      <p>
-        I developed two user personas based on the data I had gathered. Raymond,
-        a 28 year old realtor who has been surfing all his life, and Shelby, a
-        29 year old teacher who has just recently taken up paddle boarding as a
-        hobby.
-      </p>
-      <div>
-        <picture>
-          <source
-            srcset="img/1x_sm/raymond_userjourney_sm.jpg"
-            media="(max-width:767px)"
-          />
-          <img src="img/1x_lrg/raymond_userjourney_lrg.jpg" alt="raymond user
-          journey map"
-        </picture>
-        <picture>
-          <source
-            srcset="img/1x_sm/shelby_userjourney_sm.jpg"
-            media="(max-width:767px)"
-          />
-          <img src="img/1x_lrg/shelby_userjourney_lrg.jpg" alt="shelby user
-          journey map"
-        </picture>
+      <div class="container">
+        <h2>User Journey Maps</h2>
+        <p>
+          I developed two user personas based on the data I had gathered.
+          Raymond, a 28 year old realtor who has been surfing all his life, and
+          Shelby, a 29 year old teacher who has just recently taken up paddle
+          boarding as a hobby.
+        </p>
+        <div>
+          <picture>
+            <source
+              srcset="img/1x_sm/raymond_userjourney_sm.jpg"
+              media="(max-width:767px)"
+            />
+            <img src="img/1x_lrg/raymond_userjourney_lrg.jpg" alt="raymond user
+            journey map"
+          </picture>
+          <picture>
+            <source
+              srcset="img/1x_sm/shelby_userjourney_sm.jpg"
+              media="(max-width:767px)"
+            />
+            <img src="img/1x_lrg/shelby_userjourney_lrg.jpg" alt="shelby user
+            journey map"
+          </picture>
+        </div>
       </div>
 
       <h1>Wireframes</h1>
-      <h2>Mid Fi Wireframes</h2>
-      <p>
-        I developed mid fidelity wireframes for the three major features of the
-        mobile app, which are Community, Favorites and Weather Reports.
-      </p>
-      <div>
-        <picture>
-          <source
-            srcset="img/1x_sm/conditions_sm.jpg"
-            media="(max-width:767px)"
-          />
-          <img src="img/1x_lrg/conditions_lrg.jpg" alt="conditions wireframes"
-        </picture>
-        <picture>
-          <source
-            srcset="img/1x_sm/community_sm.jpg"
-            media="(max-width:767px)"
-          />
-          <img src="img/1x_lrg/community_lrg.jpg" alt="community wireframes"
-        </picture>
-        <picture>
-          <source
-            srcset="img/1x_sm/favorites_sm.jpg"
-            media="(max-width:767px)"
-          />
-          <img src="img/1x_lrg/favorites_lrg.jpg" alt="favorites wireframes"
-        </picture>
+      <div class="container">
+        <h2>Mid Fi Wireframes</h2>
+        <p>
+          I developed mid fidelity wireframes for the three major features of
+          the mobile app, which are Community, Favorites and Weather Reports.
+        </p>
+        <div>
+          <picture>
+            <source
+              srcset="img/1x_sm/conditions_sm.jpg"
+              media="(max-width:767px)"
+            />
+            <img src="img/1x_lrg/conditions_lrg.jpg" alt="conditions wireframes"
+          </picture>
+          <picture>
+            <source
+              srcset="img/1x_sm/community_sm.jpg"
+              media="(max-width:767px)"
+            />
+            <img src="img/1x_lrg/community_lrg.jpg" alt="community wireframes"
+          </picture>
+          <picture>
+            <source
+              srcset="img/1x_sm/favorites_sm.jpg"
+              media="(max-width:767px)"
+            />
+            <img src="img/1x_lrg/favorites_lrg.jpg" alt="favorites wireframes"
+          </picture>
+        </div>
       </div>
       <h1>Usability Testing</h1>
-      <p>
-        Usability testing was conducted remotely with six participants over the
-        span of the week. During the test we had the participants interact with
-        the Prototype and complete a series of short tasks. Our test objectives
-        were to determine how quickly users were able to understand what the
-        features of the app do, and also we wanted to observe how users would
-        navigate through the app and if they're able to find what they needed
-        quickly and easily through the navigation.
-      </p>
-      <a
-        href="https://docs.google.com/document/d/1zVSOZwcpsKbLuqXzgImDGqLRLQLHD7mGikaX97S1R3E/edit"
-        target="_blank"
-        >View full test plan and script</a
-      >
-      <h2>Test Results</h2>
-      <p>
-        The top three usability issues that we discovered during testing were:
-      </p>
-      <ul>
-        <li>
-          Users were confused on where to find the ocean swell forecast. Users
-          anticipated that ocean swell would be located under the “water”
-          bucket, when in fact the data was placed under the “Air” bucket, as
-          swell is caused by wind.
-        </li>
-        <li>
-          Users were confused by the search function when asked to set their
-          location in the app. This was because the search function prototype
-          did not indicate clearly where the user could type.
-        </li>
-        <li>
-          When users created a weather alert, there was confusion because there
-          was no clear indiction when the user had completed the task. In this
-          instance, the toggle that indicated an alert had been created did not
-          move to the “on” position.
-        </li>
-      </ul>
-
-      <h1>Refining the Design</h1>
-      <p>
-        After usability testing was completed, I sat down with the high fidelity
-        wireframes to further refine the design. I incorporated the fixes
-        suggested by testing, including changing the location of certain data,
-        and making some changes to the search function to improve usability. I
-        also implemented an 8 point grid system, added a color scheme, and
-        adapted the interface to include Material Design Guidelines. An
-        accessibility audit was also performed to make sure the design conformed
-        to A guidelines at a minimum. Finally, I created a Style Guide in
-        preparation for handoff to developers.
-      </p>
-      <div>
-        <picture>
-          <source
-            srcset="img/1x_sm/styleguide_sm.jpg"
-            media="(max-width:767px)"
-          />
-          <img src="img/1x_lrg/styleguide_lrg.jpg" alt="Vela Styleguide Color"
-        </picture>
-        <picture>
-          <source
-            srcset="img/1x_sm/typography_sm.jpg"
-            media="(max-width:767px)"
-          />
-          <img src="img/1x_lrg/typography_lrg.jpg" alt="Vela Styleguide
-          Typography"
-        </picture>
+      <div class="container">
+        <p>
+          Usability testing was conducted remotely with six participants over
+          the span of the week. During the test we had the participants interact
+          with the Prototype and complete a series of short tasks. Our test
+          objectives were to determine how quickly users were able to understand
+          what the features of the app do, and also we wanted to observe how
+          users would navigate through the app and if they're able to find what
+          they needed quickly and easily through the navigation.
+        </p>
+        <a
+          href="https://docs.google.com/document/d/1zVSOZwcpsKbLuqXzgImDGqLRLQLHD7mGikaX97S1R3E/edit"
+          target="_blank"
+          >View full test plan and script</a
+        >
+        <h2>Test Results</h2>
+        <p>
+          The top three usability issues that we discovered during testing were:
+        </p>
+        <ul>
+          <li>
+            Users were confused on where to find the ocean swell forecast. Users
+            anticipated that ocean swell would be located under the “water”
+            bucket, when in fact the data was placed under the “Air” bucket, as
+            swell is caused by wind.
+          </li>
+          <li>
+            Users were confused by the search function when asked to set their
+            location in the app. This was because the search function prototype
+            did not indicate clearly where the user could type.
+          </li>
+          <li>
+            When users created a weather alert, there was confusion because
+            there was no clear indiction when the user had completed the task.
+            In this instance, the toggle that indicated an alert had been
+            created did not move to the “on” position.
+          </li>
+        </ul>
       </div>
+      <h1>Refining the Design</h1>
+      <div class="container">
+        <p>
+          After usability testing was completed, I sat down with the high
+          fidelity wireframes to further refine the design. I incorporated the
+          fixes suggested by testing, including changing the location of certain
+          data, and making some changes to the search function to improve
+          usability. I also implemented an 8 point grid system, added a color
+          scheme, and adapted the interface to include Material Design
+          Guidelines. An accessibility audit was also performed to make sure the
+          design conformed to A guidelines at a minimum. Finally, I created a
+          Style Guide in preparation for handoff to developers.
+        </p>
+        <div>
+          <picture>
+            <source
+              srcset="img/1x_sm/styleguide_sm.jpg"
+              media="(max-width:767px)"
+            />
+            <img src="img/1x_lrg/styleguide_lrg.jpg" alt="Vela Styleguide Color"
+          </picture>
+          <picture>
+            <source
+              srcset="img/1x_sm/typography_sm.jpg"
+              media="(max-width:767px)"
+            />
+            <img src="img/1x_lrg/typography_lrg.jpg" alt="Vela Styleguide
+            Typography"
+          </picture>
+        </div>
+      </div>
+
       <h1>Solutions</h1>
-      <h2>Hi Fi Prototype</h2>
-      <iframe
-        style="border: 1px solid rgba(0, 0, 0, 0.1)"
-        width="800"
-        height="450"
-        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOtLGeGZjjZkCjwHMCSZ2LV%2FVela---App-Playground%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D52-5088%26viewport%3D977%252C1163%252C0.17%26scaling%3Dscale-down%26starting-point-node-id%3D52%253A5088%26show-proto-sidebar%3D1"
-        allowfullscreen
-      ></iframe>
-      <h2>Challenges and Lessons Learned</h2>
-      <h3>Research - Finding the right people to interview</h3>
-      <p>
-        During the research phase of Vela it was challenging it was difficult to
-        find individuals in my personal network who had water sports experience
-        and matched my criteria, and it was also sometimes felt challenging to
-        ask for the interview if I had not spoken with the contact in a long
-        time. There were also some scheduling challenges with individuals who
-        lived in different time zones. The lesson learned here is to over budget
-        time for research to allow for any cancellations or scheduling mishaps.
-        I overcame the challenge of sourcing individuals with persistence and
-        not allowing myself to become discouraged if an interview did not work
-        out. I was careful to follow up when setting up the interview and
-        carefully explained the process to ensure the participant’s comfort.
-      </p>
-      <h3>Design - Receiving Feedback</h3>
-      <p>
-        While designing the first concept of the design, I received some
-        feedback that the navigation I had created may not be the easiest thing
-        for a developer to build. Because of this, I had to rethink and come up
-        with a new concept. The lesson learned for me here was that it is 1)
-        Design is a constant work in progress and it’s important not to get
-        attached to any one idea and 2) UX Design is very similar to
-        architecture. Creating beautiful and innovative wireframes is great, but
-        ultimately functionality is most important and someone has to be able to
-        build the design.
-      </p>
-      <h3>Testing - Asking better questions</h3>
-      <p>
-        An additional finding from testing the prototype was how to write better
-        usability testing questions. For instance, during testing participants
-        had to ask for a particular question to be repeated multiple times. I
-        realized that the question I wrote was too long, involved, and wordy.
-        Participants could not remember what the question was asking them to do
-        as they tried to complete the task. The lesson learned here is to
-        remember that sometimes a question seems clear to the author but not so
-        clear to someone hearing it for the first time. I learned to write
-        better questions by reading them out loud, and by running the questions
-        by friends and family to check for clarity.
-      </p>
+
+      <div class="container">
+        <h2>Hi Fi Prototype</h2>
+        <iframe
+          id="iframe"
+          style="border: 1px solid rgba(0, 0, 0, 0.1)"
+          width="800"
+          height="450"
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOtLGeGZjjZkCjwHMCSZ2LV%2FVela---App-Playground%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D52-5088%26viewport%3D977%252C1163%252C0.17%26scaling%3Dscale-down%26starting-point-node-id%3D52%253A5088%26show-proto-sidebar%3D1"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="container">
+        <h2>Challenges and Lessons Learned</h2>
+        <h3>Research - Finding the right people to interview</h3>
+        <p>
+          During the research phase of Vela it was challenging it was difficult
+          to find individuals in my personal network who had water sports
+          experience and matched my criteria, and it was also sometimes felt
+          challenging to ask for the interview if I had not spoken with the
+          contact in a long time. There were also some scheduling challenges
+          with individuals who lived in different time zones. The lesson learned
+          here is to over budget time for research to allow for any
+          cancellations or scheduling mishaps. I overcame the challenge of
+          sourcing individuals with persistence and not allowing myself to
+          become discouraged if an interview did not work out. I was careful to
+          follow up when setting up the interview and carefully explained the
+          process to ensure the participant’s comfort.
+        </p>
+        <h3>Design - Receiving Feedback</h3>
+        <p>
+          While designing the first concept of the design, I received some
+          feedback that the navigation I had created may not be the easiest
+          thing for a developer to build. Because of this, I had to rethink and
+          come up with a new concept. The lesson learned for me here was that it
+          is 1) Design is a constant work in progress and it’s important not to
+          get attached to any one idea and 2) UX Design is very similar to
+          architecture. Creating beautiful and innovative wireframes is great,
+          but ultimately functionality is most important and someone has to be
+          able to build the design.
+        </p>
+        <h3>Testing - Asking better questions</h3>
+        <p>
+          An additional finding from testing the prototype was how to write
+          better usability testing questions. For instance, during testing
+          participants had to ask for a particular question to be repeated
+          multiple times. I realized that the question I wrote was too long,
+          involved, and wordy. Participants could not remember what the question
+          was asking them to do as they tried to complete the task. The lesson
+          learned here is to remember that sometimes a question seems clear to
+          the author but not so clear to someone hearing it for the first time.
+          I learned to write better questions by reading them out loud, and by
+          running the questions by friends and family to check for clarity.
+        </p>
+      </div>
     </main>
     <footer id="contact">
       <div class="container">
@@ -346,7 +378,7 @@
           >
         </div>
         <div>
-          <ul>
+          <ul class="social-logo">
             <a href="ANOTHER-SOCIAL-LINK" alt="linkedin logo">
               <svg
                 enable-background="new 0 0 32 32"
