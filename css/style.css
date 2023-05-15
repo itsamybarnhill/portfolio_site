@@ -333,6 +333,8 @@ X-large devices (1440px or larger)
 }
 
 .about-image {
+  display: block;
+  margin: auto;
   max-height: 132px;
   max-width: 132px;
 }
