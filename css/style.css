@@ -331,3 +331,8 @@ X-large devices (1440px or larger)
 .social-logo {
   padding-left: 0;
 }
+
+.about-image {
+  max-height: 132px;
+  max-width: 132px;
+}
