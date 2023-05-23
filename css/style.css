@@ -120,7 +120,6 @@ a:active {
 }
 
 .logo > a {
-  max-width: 150px;
   padding: 0 15px;
 }
 
@@ -213,6 +212,10 @@ a:active {
   padding: 0 0 10px;
 }
 
+.navtoggle.responsive li {
+  display: block;
+}
+
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
@@ -251,10 +254,6 @@ Medium devices (640px and larger)
 
   #about-page h3 {
     margin-top: 0;
-  }
-
-  .logo > a {
-    max-width: 250px;
   }
 
   .nav > li {
