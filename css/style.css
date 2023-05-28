@@ -44,7 +44,7 @@ img {
 }
 
 a {
-  color: #ffffff;
+  color: #e1e1e5;
   text-decoration: none; /* No underlining */
 }
 a:hover a:focus {
@@ -57,10 +57,10 @@ a:visited {
 }
 a:active {
   /* selected link */
-  color: #ffffff;
+  color: #130025;
 }
 
-.projectlink {
+.extralink {
   color: #130025;
 }
 
@@ -385,7 +385,8 @@ X-large devices (1440px or larger)
 }
 
 .column {
-  flex: 33.33%;
+  display: flexbox;
+  justify-content: center;
 }
 
 .vela-nav {
@@ -394,6 +395,7 @@ X-large devices (1440px or larger)
 
 .social-logo {
   padding-left: 0;
+  padding-top: 15px;
 }
 
 .about-image {
@@ -401,4 +403,9 @@ X-large devices (1440px or larger)
   margin: auto;
   max-height: 132px;
   max-width: 132px;
+}
+
+.velamockup {
+  max-height: 500px;
+  max-width: 250px;
 }
