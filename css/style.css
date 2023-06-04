@@ -10,7 +10,7 @@ body {
   font-size: 18px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #4a4a4a;
+  color: #130025;
 }
 
 h1,
@@ -86,14 +86,14 @@ a:active {
 /*This is for the email me button*/
 .button.contact {
   background-color: transparent;
-  color: #ff7f50;
+  color: #f28e23;
   text-transform: lowercase;
-  border: 2px solid #ff7f50;
+  border: 2px solid #f28e23;
   padding-right: 12px;
   border-radius: 12px;
 }
 .button.contact:hover {
-  background-color: #ff7f50;
+  background-color: #f28e23;
   color: #ffffff;
 }
 
@@ -408,4 +408,6 @@ X-large devices (1440px or larger)
 .velamockup {
   max-height: 500px;
   max-width: 250px;
+  padding-left: 35px;
+  padding-top: 35px;
 }
