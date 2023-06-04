@@ -411,3 +411,8 @@ X-large devices (1440px or larger)
   padding-left: 35px;
   padding-top: 35px;
 }
+
+.container1 {
+  display: flex;
+  justify-content: center;
+}
